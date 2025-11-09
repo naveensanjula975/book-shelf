@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.pytest_cache/
+coverage/
+coverage.xml
+htmlcov/
+
+# Django stuff:
+# Ignore DB file(s) and local settings
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Media (user-uploaded files)
+media/
+
+# Static files (collected)
+staticfiles/
+
+# If you use a separate folder for compiled static assets, ignore it
+static/
+
+# Environment variables
+.env
+
+# Virtualenvs
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Docker
+# ignore docker environment files that may contain secrets
+.docker.env
+docker-compose.override.yml
+
+# Editor/project user files
+*.sublime-workspace
+*.sublime-project
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+
+# Coverage and profiling
+*.cover
+*.coverage
+
+# Wheel files
+*.whl
+
+# Backup files
+*~
+*.bak
+
+# Thumbs and other OS artifacts
+Thumbs.db
